@@ -7,10 +7,10 @@
 	<h1>MySQL Table Viewer</h1>
 	<?php
 		// Define database connection variables
-		$servername = "DBServer";
-		$username = "DB_USER";
-		$password = "DB_PASSWORD";
-		$dbname = "DB_NAME";
+		$servername = "gl-az-db-1.mysql.database.azure.com";
+		$username = "gl_user";
+		$password = "Zohtee110!";
+		$dbname = "gl-az-db-1";
 
 		// Create database connection
 		$conn = new mysqli($servername, $username, $password, $dbname);
